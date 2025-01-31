@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}

@@ -1,8 +1,7 @@
 import {createRoot} from "react-dom/client";
-import HomePage from "./app/HomePage";
 import "./styles.css";
+import Router from "./router";
 
+let root = createRoot(document.getElementById("root") );
 
-let root = createRoot(document.getElementById("root"));
-
-root.render(<HomePage/>);
+root.render(<Router/>);
