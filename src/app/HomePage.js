@@ -8,7 +8,7 @@ function UserLog(){
         if(isUserLogged) dispatch(logout());
         else dispatch(login()); 
         console.log("state changed",isUserLogged);
-    }}>{isUserLogged?"Logged In":"Logged Out"}</div>
+    }}>You Have Successfully {isUserLogged?"Logged In":"Logged Out"}</div>
 }
 
 export default function HomePage(){
